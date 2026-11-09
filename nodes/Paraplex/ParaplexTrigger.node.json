@@ -1,0 +1,10 @@
+{
+  "node": "n8n-nodes-paraplex.paraplexTrigger",
+  "nodeVersion": "1.0",
+  "codexVersion": "1.0",
+  "categories": ["Marketing", "Miscellaneous"],
+  "resources": {
+    "credentialDocumentation": [{ "url": "https://github.com/Paraplex-AI/n8n-nodes-paraplex#credentials" }],
+    "primaryDocumentation": [{ "url": "https://github.com/Paraplex-AI/n8n-nodes-paraplex#readme" }]
+  }
+}

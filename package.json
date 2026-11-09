@@ -1,0 +1,54 @@
+{
+  "name": "n8n-nodes-paraplex",
+  "version": "0.1.0",
+  "description": "Paraplex in n8n: render motion design templates into videos with your words, pictures and colors, run Paraplex automations, and start workflows when a render finishes.",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "paraplex",
+    "video",
+    "motion design",
+    "video automation",
+    "render"
+  ],
+  "homepage": "https://paraplex.ai",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Paraplex-AI/n8n-nodes-paraplex.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Paraplex Digital, LLC",
+    "email": "info@paraplex.ai"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "credentials/",
+    "nodes/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.15"
+  },
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "credentials/ParaplexApi.credentials.js"
+    ],
+    "nodes": [
+      "nodes/Paraplex/Paraplex.node.js",
+      "nodes/Paraplex/ParaplexTrigger.node.js"
+    ]
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "peerDependenciesMeta": {
+    "n8n-workflow": {
+      "optional": true
+    }
+  }
+}
